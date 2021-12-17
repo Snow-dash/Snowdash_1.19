@@ -13,7 +13,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
-@Mixin(targets = "net/minecraft/item/PotionItem")
+@Mixin(PotionItem.class)
 public class potionMixin extends Item {
 	public potionMixin(Settings settings) {
 		super(settings);
@@ -26,6 +26,7 @@ public class potionMixin extends Item {
 	 * @return
 	 */
 	//@Overwrite()
+
 	public ActionResult useOnBlock(ItemUsageContext context){
 		if(((Item)(Object)this) instanceof PotionItem){
 			//ExampleMod.LOGGER.info("use potion");
