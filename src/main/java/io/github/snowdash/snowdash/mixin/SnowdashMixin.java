@@ -1,4 +1,4 @@
-package net.fabricmc.snowdash.mixin;
+package io.github.snowdash.snowdash.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;

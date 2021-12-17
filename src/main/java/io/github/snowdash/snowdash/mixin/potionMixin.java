@@ -1,6 +1,6 @@
-package net.fabricmc.snowdash.mixin;
+package io.github.snowdash.snowdash.mixin;
 
-import net.fabricmc.snowdash.snowdashMain;
+import io.github.snowdash.snowdash.SnowdashMain;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
@@ -38,7 +38,7 @@ public class potionMixin extends Item {
 			//ItemStack itemStack = context.getStack();
 			if(bs.getBlock() == Blocks.DIRT){
 				if(!world.isClient) {
-					world.setBlockState(bp, snowdashMain.MUD.getDefaultState());
+					world.setBlockState(bp, SnowdashMain.MUD.getDefaultState());
 					if(!player.isCreative()) {
 						player.setStackInHand(hand, new ItemStack(Items.GLASS_BOTTLE));
 					}

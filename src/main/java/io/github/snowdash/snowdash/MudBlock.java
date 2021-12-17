@@ -1,4 +1,4 @@
-package net.fabricmc.snowdash;
+package io.github.snowdash.snowdash;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -10,8 +10,8 @@ import net.minecraft.util.math.Direction;
 
 import java.util.Random;
 
-public class Mudblock extends Block {
-	public Mudblock(Settings settings) {
+public class MudBlock extends Block {
+	public MudBlock(Settings settings) {
 		super(settings);
 	}
 
