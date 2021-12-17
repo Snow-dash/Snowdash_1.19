@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "snowdash:block/mud" }
+  }
+}

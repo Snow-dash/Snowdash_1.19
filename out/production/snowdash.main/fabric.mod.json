@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "snowdash",
+  "version": "0.0.1",
+
+  "name": "snowdash",
+  "description": "For practice, adding mud to the game",
+  "authors": [
+    "snowdash"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Snow-Dash",
+    "sources": "https://github.com/Snow-Dash/Snowdash_1.19"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/snowdash/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.snowdash.snowdashMain"
+    ]
+  },
+  "mixins": [
+    "snowdash.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
