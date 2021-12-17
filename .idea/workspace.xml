@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bedb02ef-2b5e-412f-8fcb-a3bd57a65c32" name="变更" comment="first" />
+    <list default="true" id="bedb02ef-2b5e-412f-8fcb-a3bd57a65c32" name="变更" comment="first">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_18_1.1.18.1+build.1-v2.0.tiny" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-12-17-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-12-17-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-12-17-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/advancements/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/advancements/ac813ddb-b155-3ee2-ab2a-d375fb559a6a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/advancements/f318a6c7-0ff1-368e-9d3e-1b850b84da5e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/playerdata/ac813ddb-b155-3ee2-ab2a-d375fb559a6a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/playerdata/ac813ddb-b155-3ee2-ab2a-d375fb559a6a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/playerdata/f318a6c7-0ff1-368e-9d3e-1b850b84da5e.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/playerdata/f318a6c7-0ff1-368e-9d3e-1b850b84da5e.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/poi/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/poi/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/stats/ac813ddb-b155-3ee2-ab2a-d375fb559a6a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/test/stats/f318a6c7-0ff1-368e-9d3e-1b850b84da5e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +138,7 @@
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager" selected="Gradle.snowdash [jar]">
     <configuration name="snowdash [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -179,9 +228,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.snowdash [jar]" />
+        <item itemvalue="Gradle.snowdash [clean]" />
         <item itemvalue="Gradle.snowdash [downloadAssets]" />
         <item itemvalue="Gradle.snowdash [genSourcesWithCfr]" />
-        <item itemvalue="Gradle.snowdash [clean]" />
       </list>
     </recent_temporary>
   </component>
