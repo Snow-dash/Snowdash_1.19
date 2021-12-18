@@ -43,7 +43,8 @@ public class potionMixin extends Item {
 						player.setStackInHand(hand, new ItemStack(Items.GLASS_BOTTLE));
 					}
 				}else{
-					world.playSound(player,bp, SoundEvents.ITEM_BOTTLE_EMPTY, SoundCategory.PLAYERS,1f,1f);
+					world.playSound(player,bp, SoundEvents.ENTITY_GENERIC_SPLASH, SoundCategory.PLAYERS,0.8f,0.9f);
+					world.playSound(player,bp,SoundEvents.ITEM_BOTTLE_EMPTY, SoundCategory.PLAYERS,0.8f,0.9f);
 				}
 			}
 		}else{

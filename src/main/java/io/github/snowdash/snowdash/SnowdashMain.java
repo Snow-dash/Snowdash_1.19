@@ -17,7 +17,7 @@ public class SnowdashMain implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LogManager.getLogger("snowdash");
-	public static final MudBlock MUD = new MudBlock(FabricBlockSettings.of(Material.SOIL).strength(0.1f).sounds(BlockSoundGroup.SLIME).ticksRandomly());
+	public static final MudBlock MUD = new MudBlock(FabricBlockSettings.of(Material.SOIL).strength(0.3f).sounds(BlockSoundGroup.SLIME).ticksRandomly());
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
