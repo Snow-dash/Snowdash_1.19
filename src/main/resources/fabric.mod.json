@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "snowdash",
-  "version": "0.0.1",
+  "version": "0.0.2alpha",
 
   "name": "snowdash",
-  "description": "For practice, adding mud to the game",
+  "description": "For practice, adding 1.19 things to the game",
   "authors": [
     "snowdash"
   ],
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.snowdash.snowdashMain"
+      "io.github.snowdash.snowdash.SnowdashMain"
     ]
   },
   "mixins": [
