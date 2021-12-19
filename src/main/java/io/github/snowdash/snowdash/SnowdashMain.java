@@ -25,6 +25,5 @@ public class SnowdashMain implements ModInitializer {
 		// Proceed with mild caution.
 		Registry.register(Registry.BLOCK, new Identifier("snowdash","mud"),MUD);
 		Registry.register(Registry.ITEM, new Identifier("snowdash","mud"), new BlockItem(MUD,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
-
 	}
 }
