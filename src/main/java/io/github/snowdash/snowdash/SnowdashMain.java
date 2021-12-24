@@ -3,6 +3,7 @@ package io.github.snowdash.snowdash;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
@@ -18,6 +19,7 @@ public class SnowdashMain implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LogManager.getLogger("snowdash");
 	public static final MudBlock MUD = new MudBlock(FabricBlockSettings.of(Material.SOIL).strength(0.3f).sounds(BlockSoundGroup.SLIME).ticksRandomly());
+public static final RandomRedstoneBlock RANDOM_REDSTONE_BLOCK = new RandomRedstoneBlock(FabricBlockSettings.of(Material.STONE).strength(2).ticksRandomly().requiresTool());
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -25,5 +27,10 @@ public class SnowdashMain implements ModInitializer {
 		// Proceed with mild caution.
 		Registry.register(Registry.BLOCK, new Identifier("snowdash","mud"),MUD);
 		Registry.register(Registry.ITEM, new Identifier("snowdash","mud"), new BlockItem(MUD,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+
+		Registry.register(Registry.BLOCK, new Identifier("snowdash","random_redstone_block"),RANDOM_REDSTONE_BLOCK);
+		Registry.register(Registry.ITEM, new Identifier("snowdash","random_redstone_block"), new BlockItem(RANDOM_REDSTONE_BLOCK, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+
+		DispenserAdd.doPut();
 	}
 }

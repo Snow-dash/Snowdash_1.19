@@ -4,6 +4,7 @@
   "package": "io.github.snowdash.snowdash.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "DispenserAccessor",
     "PotionMixin"
   ],
   "client": [
